@@ -39,8 +39,8 @@ const SearchField = () => {
                 placeholder="פה מחפשים"
                 variant="outlined"
             />
-            <img onClick={() => search(searchVal)} src="/icons/search.svg" alt="חיפוש" className='cursor-pointer h-8' />
-            <img onClick={randomCard} src="/icons/random.png" alt="רנדומלי" className='cursor-pointer h-10' />
+            <img onClick={() => search(searchVal)} src="assets/search.svg" alt="חיפוש" className='cursor-pointer h-8' />
+            <img onClick={randomCard} src="assets/random.png" alt="רנדומלי" className='cursor-pointer h-10' />
         </div>
     )
 }

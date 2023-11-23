@@ -31,7 +31,7 @@ const GraphCard = ({ fullSize, data }: Props) => {
         <Card sx={{ boxShadow: 10 }} onClick={() => { !fullSize && setSelectedCard(data) }} className={classes.card[cIndex]}>
             {fullSize && <img onClick={(e) => { console.log(e); setSelectedCard(null) }}
                 className='cursor-pointer fixed top-2 left-2 w-5 h-5'
-                src='/icons/x.svg' alt="x" />}
+                src='assets/x.svg' alt="x" />}
             <div className={` ${classes.imgCont[cIndex]}`}>
                 <img src={data.img_path} alt='' className={'h-full w-full'} />
             </div>

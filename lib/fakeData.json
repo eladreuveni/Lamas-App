@@ -1,7 +1,7 @@
 [
   {
     "graph_id": 1,
-    "img_path": "graphs/allowences21.png",
+    "img_path": "assets/allowences21.png",
     "tags": ["קצבאות", "הכנסות", "רמת דתיות", "דת"],
     "text": "הכנסות מקצבאות כאחוז מכלל ההכנסה של משק הבית, מחולק לפי דת ורמת דתיות של משק הבית.",
     "insights": [
@@ -10,7 +10,7 @@
   },
   {
     "graph_id": 2,
-    "img_path": "graphs/food_incone_12_21.png",
+    "img_path": "assets/food_incone_12_21.png",
     "tags": ["אוכל", "הכנסות", "הוצאות", "מספר נפשות"],
     "text": "הוצאה על מזון כאחוז מההכנסה נטו של משק בית, מחולק לפי כמות נפשות במשק הבית.",
     "insights": [
@@ -21,7 +21,7 @@
   },
   {
     "graph_id": 3,
-    "img_path": "graphs/fruits_veg_food_12_21.png",
+    "img_path": "assets/fruits_veg_food_12_21.png",
     "tags": ["אוכל", "פירות", "הוצאות", "ירקות"],
     "text": "הוצאה על פירות וירקות כאחוז מסך ההוצאה של משק בית על אוכל.",
     "insights": [
@@ -32,7 +32,7 @@
   },
   {
     "graph_id": 4,
-    "img_path": "graphs/housing_income_12_21.png",
+    "img_path": "assets/housing_income_12_21.png",
     "tags": ["דיור", "הכנסות", "הוצאות", "עשירון"],
     "text": "הוצאה על דיור כאחוז מההכנסה נטו של משק בית, מחולק על פי עשירונים.",
     "insights": [
@@ -42,7 +42,7 @@
   },
   {
     "graph_id": 5,
-    "img_path": "graphs/meat_chicken_food_12_21.png",
+    "img_path": "assets/meat_chicken_food_12_21.png",
     "tags": ["בשר", "עוף", "הוצאות", "אוכל", "פריפריה", "מרכז"],
     "text": "הוצאה על עוף ובשר כאחוז מסך ההוצאה על אוכל, מחולק על פי מדד פריפריאליות.",
     "insights": [
@@ -51,7 +51,7 @@
   },
   {
     "graph_id": 6,
-    "img_path": "graphs/eat_out_12_21.png",
+    "img_path": "assets/eat_out_12_21.png",
     "tags": ["אכילה בחוץ", "הוצאות", "אוכל", "פריפריה", "מרכז"],
     "text": "הוצאה על מזון בחוץ כאחוז מסך ההוצאה על אוכל, מחולק על פי מדד פריפריאליות.",
     "insights": [
@@ -60,7 +60,7 @@
   },
   {
     "graph_id": 7,
-    "img_path": "graphs/alcohol_dist_periferia_12_21.png",
+    "img_path": "assets/alcohol_dist_periferia_12_21.png",
     "tags": ["אלכוהול", "שתייה", "הוצאות", "אוכל", "פריפריה", "מרכז"],
     "text": "חלוקת ההוצאה על סוגים שונים של אלכוהול, מחולק על פי מדד פריפריאליות.",
     "insights": [
@@ -70,7 +70,7 @@
   },
   {
     "graph_id": 8,
-    "img_path": "graphs/alcohol_dist_decile_12_21.png",
+    "img_path": "assets/alcohol_dist_decile_12_21.png",
     "tags": ["אלכוהול", "שתייה", "הוצאות", "אוכל", "עשירון"],
     "text": "סך ההוצאה על אלכוהול וחלוקה לפי משקאות, מחולק על פי עשירון.",
     "insights": [
