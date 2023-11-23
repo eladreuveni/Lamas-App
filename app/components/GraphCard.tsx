@@ -2,7 +2,6 @@
 import { Card } from '@mui/material'
 import GraphExplanation from './GraphExplanation'
 import { useAppContext } from '../context/AppContext';
-import Image from 'next/image';
 
 const classes = {
     card: {
@@ -30,11 +29,11 @@ const GraphCard = ({ fullSize, data }: Props) => {
 
     return (
         <Card sx={{ boxShadow: 10 }} onClick={() => { !fullSize && setSelectedCard(data) }} className={classes.card[cIndex]}>
-            {fullSize && <Image onClick={(e) => { console.log(e); setSelectedCard(null) }}
+            {fullSize && <img onClick={(e) => { console.log(e); setSelectedCard(null) }}
                 className='cursor-pointer fixed top-2 left-2 w-5 h-5'
                 src='/icons/x.svg' alt="x" />}
             <div className={` ${classes.imgCont[cIndex]}`}>
-                <Image src={data.img_path} alt='' className={'h-full w-full'} />
+                <img src={data.img_path} alt='' className={'h-full w-full'} />
             </div>
             <div className={`flex flex-col gap-2 ${classes.expCont[cIndex]}`}>
                 <GraphExplanation fullSize={fullSize} data={data} />
