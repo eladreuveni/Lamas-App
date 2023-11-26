@@ -19,7 +19,7 @@ const Footer = () => {
                 <HrefIcon href='https://www.linkedin.com/in/elad-reuveni-124609189/' src='assets/linkedin.svg' alt="linkedin" />
             </div>
             <div className='h-full flex gap-5 items-center'>
-                <span className='text-2xl font-bold no-select'>זה הקוד: </span>
+                <span className='text-2xl font-bold no-select'>הקוד: </span>
                 <HrefIcon href='https://github.com/eladreuveni/Lamas' src='assets/github.svg' alt="github" />
             </div>
             <div className='flex flex-col justify-center items-center text-xs no-select'>

@@ -3,7 +3,7 @@ import GraphsPool from './GraphsPool'
 import Search from './Search'
 import { useAppContext } from '../context/AppContext'
 import GraphCard from './GraphCard'
-import { MouseEventHandler, useRef } from 'react'
+import { useRef } from 'react'
 
 const Content = () => {
     const { selectedCard, setSelectedCard } = useAppContext();
