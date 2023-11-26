@@ -8,6 +8,7 @@ const usePageBottom = () => {
     const windowHeight = window.innerHeight;
     const fullHeight = document.documentElement.scrollHeight;
 
+    if (!scrollTop) { setIsBottom(false); return; }
     // Check if the user has scrolled to the bottom
     if (windowHeight + scrollTop >= fullHeight) {
       setIsBottom(true);

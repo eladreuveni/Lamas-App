@@ -14,10 +14,13 @@ const Footer = () => {
         <menu className={`${menuCN} transition-all duration-1000 fixed w-full h-10 px-10 flex justify-between items-center bg-sns-light-blue`}>
             <div className='h-full flex gap-5 items-center'>
                 <span className='text-2xl font-bold no-select'>צרו איתי קשר: </span>
-                <HrefIcon href='https://github.com/eladreuveni/Lamas' src='assets/github.svg' alt="github" />
                 <HrefIcon href='https://twitter.com/elado_blanco' src='assets/x-twitter.svg' alt="twitter" />
                 <HrefIcon href='mailto:elad.reuveni.7@gmail.com' src='assets/email.svg' alt="email" />
                 <HrefIcon href='https://www.linkedin.com/in/elad-reuveni-124609189/' src='assets/linkedin.svg' alt="linkedin" />
+            </div>
+            <div className='h-full flex gap-5 items-center'>
+                <span className='text-2xl font-bold no-select'>זה הקוד: </span>
+                <HrefIcon href='https://github.com/eladreuveni/Lamas' src='assets/github.svg' alt="github" />
             </div>
             <div className='flex flex-col justify-center items-center text-xs no-select'>
                 <span>Ⓒ כל הזכויות שמורות לאלעד ראובני Ⓒ</span>
