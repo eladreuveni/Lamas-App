@@ -1,11 +1,15 @@
 'use client'
-import React from 'react'
+import React, { useEffect } from 'react'
 import HrefIcon from './HrefIcon'
 import { useAppContext } from '../context/AppContext'
+import usePageBottom from '@/lib/hooks/usePageBottom'
 
 const Footer = () => {
     const { selectedCard } = useAppContext()
-    const menuCN = selectedCard ? '-bottom-10' : 'bottom-0'
+    const isBottom = usePageBottom();
+
+    const menuCN = (selectedCard || isBottom) ? '-bottom-10' : 'bottom-0'
+
     return (
         <menu className={`${menuCN} transition-all duration-1000 fixed w-full h-10 px-10 flex justify-between items-center bg-sns-light-blue`}>
             <div className='h-full flex gap-5 items-center'>
