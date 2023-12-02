@@ -4,9 +4,11 @@ import Search from './Search'
 import { useAppContext } from '../context/AppContext'
 import GraphCard from './GraphCard'
 import { useRef } from 'react'
+import useResponsive from '@/lib/hooks/useResponsive'
 
 const Content = () => {
     const { selectedCard, setSelectedCard } = useAppContext();
+    const { isMobile } = useResponsive();
     const cardRef = useRef<HTMLDivElement>(null);
 
     const clicked = (e: any) => {
@@ -16,7 +18,7 @@ const Content = () => {
     return (
         <>
             <div className='m-auto w-11/12 mt-6'>
-                <Search />
+                {!isMobile && <Search />}
                 <GraphsPool />
             </div>
             {selectedCard && <div onClick={clicked} className='w-full h-full fixed top-0 bottom-0 bg-black bg-opacity-50'>
